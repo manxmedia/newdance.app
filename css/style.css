@@ -94,7 +94,7 @@ a:focus {
 .custom_nav-container .nav_search-btn {
   padding: 0;
   border: none; 
-color: #FF4700 !important;}
+color: #FF4800 !important;}
 
 .custom_nav-container {
   z-index: 99999;
@@ -155,10 +155,9 @@ color: #FF4700 !important;}
 /*end header section*/
 .slider_section .slider_container {
   color: #fefefe;
-  background-color: #003468;
   background-color: #FF4800;
   padding: 25px;
-  border-radius: 0 0 15px 15px; }
+  border-radius: 15px; }
 .slider_section .row {
   align-items: center; }
 .slider_section .img-box {
@@ -540,14 +539,14 @@ color: #FF4700 !important;}
     .info_section .info_link-box a span {
       color: #fff; }
     .info_section .info_link-box a:hover span {
-      color: #FF4700; }
+      color: #FF4800; }
 
 .info_section .info_container a{
 	color: #9EB3EE;
 }
 
 .info_section .info_container a:hover{
-	color: #FF4700;
+	color: #FF4800;
 }
 
 /* end info section */
@@ -568,6 +567,6 @@ color: #FF4700 !important;}
   color:#DBDBDB; }
 
 .footer_section a:hover {
-  color:#FF4700; }
+  color:#FF4800; }
 
 /* end footer section*/
