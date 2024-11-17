@@ -1,7 +1,7 @@
 $white: #ffffff;
-$black: #000000;
-$primary1: #ff3400;
-$btnColor: #db4f66;
+$black: #003468;
+$primary1: #FF4800;
+$btnColor: #FF4800;
 
 
 // font-family: 'Poppins', sans-serif;
@@ -103,7 +103,7 @@ body {
 
 #navbarSupportedContent {
   width: 100%;
-  background-color: #f9ece6;
+  background-color: #003468;
   justify-content: center;
   padding: 10px 0;
   border-radius: 15px 15px 0 0;
@@ -111,7 +111,7 @@ body {
   &.innerpage_navbar {
     background-color: white;
     border-radius: 10px;
-    box-shadow: 0 0 3px 0 rgba($color: #000000, $alpha: .25);
+    box-shadow: 0 0 3px 0 rgba($color: #003468, $alpha: .25);
 
     .nav-item.active {
       .nav-link {
@@ -268,7 +268,7 @@ a:focus {
   .slider_container {
     color: #fefefe;
     background-color: $black;
-    background-color: #ff3400;
+    background-color: #FF4800;
     padding: 25px;
     border-radius: 0 0 15px 15px;
   }
@@ -298,7 +298,7 @@ a:focus {
     }
 
     a {
-      @include hero_btn(#db4566, $white, 10px, 40px, 5px);
+      @include hero_btn(#003468, $white, 10px, 40px, 5px);
       margin-top: 25px;
       text-transform: uppercase;
     }
@@ -397,7 +397,7 @@ a:focus {
     margin-top: 45px;
 
     a {
-      @include hero_btn(#f16179, $white, 10px, 40px, 5px);
+      @include hero_btn(#FF4800, $white, 10px, 40px, 5px);
     }
   }
 }
@@ -412,7 +412,7 @@ a:focus {
 
   .box {
     padding-top: 45px;
-    background-color: #7fd7eb;
+    background-color: #003468;
     color: $white;
     border-radius: 15px;
   }
@@ -476,7 +476,7 @@ a:focus {
       svg {
         width: 55px;
         height: auto;
-        fill: #320b57;
+        fill: #003468;
       }
     }
   }
@@ -492,7 +492,7 @@ a:focus {
   padding-right: 45px;
 
   .box {
-    background-color: #6929a5;
+    background-color: #003468;
     border-radius: 15px;
     color: $white;
   }
@@ -532,7 +532,7 @@ a:focus {
       }
 
       .btn2 {
-        @include hero_btn(#9242dd, $white, 10px, 0, 0)
+        @include hero_btn(#003468, $white, 10px, 0, 0)
       }
     }
   }
@@ -547,7 +547,7 @@ a:focus {
 
 
   .container-bg {
-    box-shadow: 0 0 25px 0 rgba($color: #000000, $alpha: .1);
+    box-shadow: 0 0 25px 0 rgba($color: #003468, $alpha: .1);
 
   }
 
@@ -612,7 +612,7 @@ a:focus {
 
   .box {
     margin: 15px 45px;
-    box-shadow: 0 0 5px 0 rgba($color: #000000, $alpha: .25);
+    box-shadow: 0 0 5px 0 rgba($color: #003468, $alpha: .25);
     padding: 25px;
 
     .client_info {
