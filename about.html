@@ -1,249 +1,297 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+  <head>
+	  
+	  	 <!-- Organization Markup -->
+		<script type="application/ld+json">
+		{
+		  "@context": "http://schema.org",
+		  "@type": "Organization",
+		  "name": "New Dance",
+		  "url": "http://www.newdance.co.za",
+		  "logo": "http://www.newdance.co.za/images/logo.png",
+		  "contactPoint": {
+			"@type": "ContactPoint",
+			"telephone": "+27-74-458-7870",
+			"contactType": "customer service"
+		  },
+		  "sameAs": [
+			"https://www.facebook.com/newdance",
+			"http://www.instagram.com/newdance",
+            "https://www.tiktok.com/@newdance",
+			"http://www.twitter.com/@newdance"
+		  ]
+		}
+	  </script>
+	  	<!-- Local Business Markup -->
+		<script type="application/ld+json">
+		  {
+		  "@context": "http://schema.org",
+		  "@type": "LocalBusiness",
+		  "name": "New Dance",
+            "image": "http://www.newdance.co.za/images/logo.png",
+		  "description": "New dance is here to support you wherever you are. When it comes to dancing, we can make your vision to come true. Shop with New Dance online for all your men's shirts, women's shirts and kids' shirt.",
+		  "address": {
+			"@type": "PostalAddress",
+			"streetAddress": "",
+			"addressLocality": "",
+			"addressRegion": "Gauteng",
+			"postalCode": "2194",
+			"addressCountry": "ZA"
+		  },
+		  "telephone": "+27-74-458-7870",
+		  "openingHours": "24/7",
+		  "priceRange": "RR",
+		  "geo": {
+			"@type": "GeoCoordinates",
+			"latitude": "",
+			"longitude": ""
+		  }
+		}
+	</script>
+		<!-- Service Markup -->
+	  	<script type="application/ld+json">
+		{
+		  "@context": "http://schema.org",
+		  "@type": "Service",
+		  "serviceType": "Clothing and Apparels Services",
+		  "provider": {
+			"@type": "LocalBusiness",
+			"name": "New Dance",
+            "image": "http://www.newdance.co.za/images/logo.png",
+			"priceRange": "RR",
+            "address": {
+			"@type": "PostalAddress",
+			"streetAddress": "",
+			"addressLocality": "",
+			"addressRegion": "Gauteng",
+			"postalCode": "2194",
+			"addressCountry": "ZA",
+       "telephone": "+27-74-458-7870"
+		  	}  
+          },
+          "areaServed": {
+			"@type": "Province",
+			"name": "Gauteng"
+		  }
+		}
+	  </script>
+	  
+    <title>New Dance Store | More</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<head>
-  <!-- Basic -->
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <!-- Mobile Metas -->
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <!-- Site Metas -->
-  <meta name="keywords" content="" />
-  <meta name="description" content="" />
-  <meta name="author" content="" />
-  <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+	  	      <!-- Favicon -->
+    <link href="images/favicon.ico" rel="icon">
+	  
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
 
-  <title>
-    New Dance Store | About Us
-  </title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
 
-  <!-- slider stylesheet -->
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
 
-  <!-- bootstrap core css -->
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
 
-  <!-- Custom styles for this template -->
-  <link href="css/style.css" rel="stylesheet" />
-  <!-- responsive style -->
-  <link href="css/responsive.css" rel="stylesheet" />
-</head>
+    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
 
-<body>
-  <div class="hero_area">
-    <!-- header section strats -->
-    <header class="header_section">
-      <nav class="navbar navbar-expand-lg custom_nav-container ">
-        <a class="navbar-brand" href="index.html">
-          <span>
-            <img src="images/logo.png" width="80" height="" alt="New Dance"/>
-          </span>
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class=""></span>
-        </button>
+    <link rel="stylesheet" href="css/aos.css">
 
-        <div class="collapse navbar-collapse innerpage_navbar" id="navbarSupportedContent">
-          <ul class="navbar-nav  ">
-            <li class="nav-item ">
-              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="shop.html">
-                Shop
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="why.html">
-                Why Us
-              </a>
-            </li>
-			<li class="nav-item active">
-              <a class="nav-link" href="about.html">
-               About Us
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="testimonial.html">
-                Testimonial
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact Us</a>
-            </li>
-          </ul>
-          <div class="user_option">
-            <a href="">
-				<span>
-                Shop
-              </span>
-              <i class="fa fa-shopping-bag" aria-hidden="true"></i>
-            </a>
-            <form class="form-inline ">
-              <button class="btn nav_search-btn" type="submit">
-                <i class="fa fa-search" aria-hidden="true"></i>
-              </button>
-            </form>
+    <link rel="stylesheet" href="css/style.css">
+	  
+     
+	  
+  </head>
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+  
+  <div class="site-wrap">
+
+       
+    <div class="top-bar py-3 bg-light" id="top-page-section">
+      <div class="container col-md-12">
+        <div class="row">
+          <div class="col-md-4 col-3 offset-md-0 col-sm-5">
+            <p class="mb-0">
+				<div class="logo"><a href="index.html"><img src="images/newdance_1.png" alt="New Dance" height="30px" title="Go Home"></a></div>
+            </p>
+          </div>	
+          <div class="col-sm-0 col-md-8 col-xl-8 col-sm-7 col-7 offset-sm-0">
+            <ul class="social-media">
+              <li><a href="#" target="_blank" class="p-2"><span class="icon-shopping-bag"></span></a></li>
+			  <li><a href="#" target="_blank" class="p-2"><span class="icon-user"></span></a></li>
+			  <li><a href="#" target="_blank" class="p-2"><span class="icon-search"></span></a></li>
+			  </ul>
           </div>
         </div>
-      </nav>
-    </header>
-    <!-- end header section -->
+      </div> 
+    </div>
 
-  </div>
-  <!-- end hero area -->
-
-  <!-- why section -->
-
-  <section class="about_section layout_padding">
-    <div class="container">
-      <div class="heading_container heading_center">
-        <h2>
-          About Us
-        </h2>
+     
+	<div class="site-blocks-cover overlay" style="background-image: url(images/hero_2.jpg);" data-aos="fade" data-stellar-background-ratio="0.5">
+      <div class="container">
+        <div class="row align-items-center justify-content-center text-center">
+       </div>
       </div>
-      <div class="row">
+    </div>
+
+    <section class="site-section border-bottom" id="preorder-section">
+      <div class="container">
 		  
-        <div class="col-md-12">
-          <div class="box ">
-            <div class="detail-box">
-              <h5>
-                <span>Company History</span>
-              </h5>
-              <p>
-                Founded in 2022, New Dance Clothing and Apparels began with a simple mission: to offer high-quality, stylish clothing that combines comfort, versatility, and durability. Over the years, we've grown into a brand that’s loved by fashion-forward individuals who appreciate fine craftsmanship and cutting-edge designs. Our collections are designed to fit modern lifestyles, from laid-back weekends to high-powered board meetings.
-              </p>
+		<div class="container">
+		  <div class="row">
+			  <div class="col-md-12 col-lg-12" data-aos="fade-up">
+            <div class="p-3 box-with-humber">
+              <div class="number-behind">About</div>
+              <h2 class="text-primary">About New Dance</h2>
             </div>
           </div>
         </div>
-          
-		<div class="col-md-12">
-          <div class="box ">
-            <div class="detail-box">
-              <h5>
-                <span>Our Vision</span>
-              </h5>
-              <p>
-                Our vision is to be the go-to destination for those who seek not only fashion-forward pieces but also a sustainable approach to clothing. We strive to create a brand that blends timeless style with eco-friendly practices, helping you build a wardrobe that’s as stylish as it is conscious.
-              </p>
-            </div>
-          </div>
-        </div>  
 		  
-		<div class="col-md-12">
-          <div class="box ">
-            <div class="detail-box">
-              <h5>
-                <span>Our Mission</span>
-              </h5>
-              <p>
-                To provide our customers with premium apparel that enhances their personal style while maintaining the highest standards of quality, sustainability, and craftsmanship. We're committed to delivering exceptional customer service and creating pieces that inspire confidence, comfort, and individuality.
-              </p>
+      </div>
+		  &nbsp;
+ 
+		<div class="row align-items-stretch">
+        <div class="col-md-12 col-lg-4 mb-4 mb-lg-4 col-xl-12" data-aos="fade-up" data-aos-delay="300">
+            <div class="unit-4 d-flex">
+              <div>
+                <h3>Our Story</h3>
+                <p class="text-justify">The former Worse Chauke founded New Dance, since 15 September 2024, in South Africa, Johannesburg in a small town (Kyasands).</p>
+				
+				  <p class="text-justify">He was inpired to start the brand by young the generations, How they dance in townships and they have been dancing for many years without a brand that really support them as young generations, as they really are passionate about dancing and they love to dance.</p>
+				  
+				  <p class="text-justify">Worse started after realising that the whole world is dancing and this stand as a pillar of his motive and drive.</p>
+				  
+				  <p class="text-justify">New Dance is here to support you wherever you are.Let us dance together, Make your vision come true</p>
+              </div>
             </div>
-          </div>
+          </div>                
+
         </div> 
-		  
       </div>
-    </div>
-  </section>
-
-  <!-- end why section -->
-
-  <!-- info section -->
-
-  <section class="info_section  layout_padding2-top">
-    <div class="social_container">
-      <div class="social_box">
-		<a href="https://api.whatsapp.com/send/?phone=27744587870&text=Hi+I+have+a+query%2C+please+help">
-          <i class="fa fa-whatsapp" aria-hidden="true"></i>
-        </a>
-        <a href="">
-          <i class="fa fa-facebook" aria-hidden="true"></i>
-        </a>
-        <a href="">
-          <i class="fa fa-twitter" aria-hidden="true"></i>
-        </a>
-        <a href="">
-          <i class="fa fa-instagram" aria-hidden="true"></i>
-        </a>
-        <a href="">
-          <i class="fa fa-youtube" aria-hidden="true"></i>
-        </a>
-      </div>
-    </div>
-    <div class="info_container ">
+    </section>
+	  
+	 
+  	 <footer class="site-footer bg-dark">
       <div class="container">
         <div class="row">
-          <div class="col-md-6 col-lg-3">
-            <h6>
-              ABOUT US
-            </h6>
-            <p>
-            Founded in&nbsp; 2022, New Dance Clothing began with a simple mission: to offer high-quality, stylish clothing that combines comfort, versatility, and durability -&nbsp;<a href="about.html"> more... </a></p>
-          </div>
-          <div class="col-md-6 col-lg-3">
-            <div class="info_form ">
-              <h5>
-                Newsletter
-              </h5>
-              <form action="#">
-                <input type="email" placeholder="Enter your email">
-                <button>
-                  Subscribe
-                </button>
-              </form>
+          <div class="col-md-11">
+            <div class="row">
+	  
+              <div class="col-md-12 text-center">
+			<p class="mb-0">
+				<div class="logo2"><a href="index.html"><img src="images/newdance_2.png" alt="New Dance" height="20px" title="Go Home"></a></div>
+            </p>
+				<p></p>
+              </div>
+			  
+			    <div class="about col-md-12 text-center mb-3">                  
+                <h5><a href="about.html" target="_blank">About Us</a></h5>
+				<h5><a href="shipping.html" target="_blank">Affordable Shipping</a></h5>
+                <h5><a href="delivery.html" target="_blank">Fast Delivery Service</a></h5>
+				<h5><a href="sizing.html" target="_blank">Size Guide</a></h5>
+					<p></p>
+				</div>
+			  
+              <div class="col-md-12 text-center">                  
+                <h2 class="footer-heading mb-4 text-center">Follow Us: &nbsp;&nbsp;
+                <a href="https://www.facebook.com/newdance" target="_blank" class="pl-0 pr-3"><span class="icon-facebook" title="Facebook" alt="Facebook"></span></a>
+				<a href="https://www.instagram.com/newdance" target="_blank" class="pl-3 pr-3"><span class="icon-instagram" title="Instagram" alt="Instagram"></span></a>
+                <a href="https://twitter.com/newdance" target="_blank" class="pl-3 pr-3"><span class="icon-twitter" title="Twitter" alt="Twitter"></span></a>
+				<a href="https://www.linkedin.com/company/newdance" target="_blank" class="pl-3 pr-3"><span class="icon-music_note" title="TikTok" alt="TikTok"></span></a></h2>
+				</div>
+			  
+			  <div class="col-md-12 text-center">
+			<p class="mb-0">
+				<div class="logo2"><a href=""><img src="images/payments.png" alt="Payments" title="Payments" height="20px"></a></div>
+            </p>
+				<p></p>
+			  
+              </div>
             </div>
           </div>
-          <div class="col-md-6 col-lg-3">
-            <h6>
-            WHY CHOoSE US? </h6>
+          
+        </div>
+        <div class="row pt-5 mt-5 text-center">
+          <div class="col-md-12">
+            <div class="border-top pt-0">
             <p>
-            We believe in Quality, Sustainability, Customer Satisfaction and providing an excellent shopping experience, with fast shipping, and personal customer support. -&nbsp;<a href="why.html"> more...</a></p>
-          </div>
-          <div class="col-md-6 col-lg-3">
-            <h6>
-              CONTACT US
-            </h6>
-            <div class="info_link-box">
-              <a href="">
-                <i class="fa fa-map-marker" aria-hidden="true"></i>
-                <span>Johannesburg, Gauteng</span>
-              </a>
-              <a href="tel:+27710993942">
-                <i class="fa fa-phone" aria-hidden="true"></i>
-                <span>+27744587870</span>
-              </a>
-              <a href="mailto:sales@newdance.co.za">
-                <i class="fa fa-envelope" aria-hidden="true"></i>
-                <span>sales@newdance.co.za</span>
-              </a>
+              <!-- Footer -->
+				Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | <i aria-hidden="true"></i> 
+				<a onClick="toggle(this)" class="nav-item text-light">New Dance</a>
+				<foot id="Web-Designer" style="white;padding:5px;"></foot>
+				
+            <!-- Footer-->
+            </p>
             </div>
           </div>
+          
         </div>
       </div>
-    </div>
-    <!-- footer section -->
-    <footer class=" footer_section">
-      <div class="container">
-        <p>
-          &copy; <span id="displayYear"></span> All Rights Reserved |
-          <a href="https://www.manxmedia.co.za/">Manx Media</a>
-        </p>
-      </div>
     </footer>
-    <!-- footer section -->
+  </div> <!-- .site-wrap -->
 
-  </section>
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/jquery-ui.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/jquery.countdown.min.js"></script>
+  <script src="js/bootstrap-datepicker.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/jquery.sticky.js"></script>
 
-  <!-- end info section -->
+<script src="js/typed.js"></script>
+            <script>
+            var typed = new Typed('.typed-words', {
+            strings: ["Welcome Home", "Welcome Home","Welcome Home"],
+            typeSpeed: 140,
+            backSpeed: 140,
+            backDelay: 4000,
+            startDelay: 1000,
+            loop: true,
+            showCursor: true
+            });
+            </script>
+
+	  <script>
+            var typed = new Typed('.typed-words-industries', {
+            strings: ["Men", "Women", "Kids", "Men","Women", "Kids","Men" ,"Women", "Kids"],
+            typeSpeed: 80,
+            backSpeed: 80,
+            backDelay: 6000,
+            startDelay: 2000,
+            loop: true,
+            showCursor: false
+            });
+            </script>
+	  
+	  
+	  <script>
+        let toggle = a => {
+    	let element = document.getElementById("Web-Designer");
+    	let hidden = element.getAttribute("hidden");
+
+    	if (hidden) {
+       	element.removeAttribute("hidden");
+        a.innerText = "New Dance";
+    	} else {
+       	element.setAttribute("hidden", "hidden");
+		a.innerText = "Emmanuel Chibvuri";
+		}
+  		}
+	  	</script>
+	  
+  <script src="js/main.js"></script>
+  
 
 
-  <script src="js/jquery-3.4.1.min.js"></script>
-  <script src="js/bootstrap.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
-  </script>
-  <script src="js/custom.js"></script>
-
-</body>
-
+  </body>
 </html>

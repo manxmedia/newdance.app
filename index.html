@@ -1,956 +1,401 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+  <head>
+	  
+	 <!-- Organization Markup -->
+		<script type="application/ld+json">
+		{
+		  "@context": "http://schema.org",
+		  "@type": "Organization",
+		  "name": "New Dance",
+		  "url": "http://www.newdance.co.za",
+		  "logo": "http://www.newdance.co.za/images/logo.png",
+		  "contactPoint": {
+			"@type": "ContactPoint",
+			"telephone": "+27-74-458-7870",
+			"contactType": "customer service"
+		  },
+		  "sameAs": [
+			"https://www.facebook.com/newdance",
+			"http://www.instagram.com/newdance",
+            "https://www.tiktok.com/@newdance",
+			"http://www.twitter.com/@newdance"
+		  ]
+		}
+	  </script>
+	  	<!-- Local Business Markup -->
+		<script type="application/ld+json">
+		  {
+		  "@context": "http://schema.org",
+		  "@type": "LocalBusiness",
+		  "name": "New Dance",
+            "image": "http://www.newdance.co.za/images/logo.png",
+		  "description": "New dance is here to support you wherever you are. When it comes to dancing, we can make your vision to come true. Shop with New Dance online for all your men's shirts, women's shirts and kids' shirt.",
+		  "address": {
+			"@type": "PostalAddress",
+			"streetAddress": "",
+			"addressLocality": "",
+			"addressRegion": "Gauteng",
+			"postalCode": "2194",
+			"addressCountry": "ZA"
+		  },
+		  "telephone": "+27-74-458-7870",
+		  "openingHours": "24/7",
+		  "priceRange": "RR",
+		  "geo": {
+			"@type": "GeoCoordinates",
+			"latitude": "",
+			"longitude": ""
+		  }
+		}
+	</script>
+		<!-- Service Markup -->
+	  	<script type="application/ld+json">
+		{
+		  "@context": "http://schema.org",
+		  "@type": "Service",
+		  "serviceType": "Clothing and Apparels Services",
+		  "provider": {
+			"@type": "LocalBusiness",
+			"name": "New Dance",
+            "image": "http://www.newdance.co.za/images/logo.png",
+			"priceRange": "RR",
+            "address": {
+			"@type": "PostalAddress",
+			"streetAddress": "",
+			"addressLocality": "",
+			"addressRegion": "Gauteng",
+			"postalCode": "2194",
+			"addressCountry": "ZA",
+       "telephone": "+27-74-458-7870"
+		  	}  
+          },
+          "areaServed": {
+			"@type": "Province",
+			"name": "Gauteng"
+		  }
+		}
+	  </script> 
+	  
+    <title>New Dance Store</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	
+	      <!-- Favicon -->
+    <link href="images/favicon.ico" rel="icon">
+	  
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
 
-<head>
-  <!-- Basic -->
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <!-- Mobile Metas -->
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <!-- Site Metas -->
-  <meta name="keywords" content="" />
-  <meta name="description" content="" />
-  <meta name="author" content="" />
-  <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
 
-  <title>
-    New Dance Store 
-  </title>
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
 
-  <!-- slider stylesheet -->
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
 
-  <!-- bootstrap core css -->
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
 
-  <!-- Custom styles for this template -->
-  <link href="css/style.css" rel="stylesheet" />
-  <!-- responsive style -->
-  <link href="css/responsive.css" rel="stylesheet" />
-</head>
+    <link rel="stylesheet" href="css/aos.css">
 
-<body>
-  <div class="hero_area">
-    <!-- header section strats -->
-    <header class="header_section">
-      <nav class="navbar navbar-expand-lg custom_nav-container ">
-        <a class="navbar-brand" href="index.html">
-          <span>
-          <img src="images/logo.png" width="80" height="" alt="New Dance"/></span>
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class=""></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav  ">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="shop.html">
-                Shop
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="why.html">
-                Why Us
-              </a>
-            </li>
-			<li class="nav-item">
-              <a class="nav-link" href="about.html">
-               About Us
-              </a>
-            </li>	  
-            <li class="nav-item">
-              <a class="nav-link" href="testimonial.html">
-                Testimonial
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact Us</a>
-            </li>
-          </ul>
-          <div class="user_option">
-            <a href="">
-				<span>
-                Shop
-              </span>
-              <i class="fa fa-shopping-bag" aria-hidden="true"></i>
-            </a>
-            <form class="form-inline ">
-              <button class="btn nav_search-btn" type="submit">
-                <i class="fa fa-search" aria-hidden="true"></i>
-              </button>
-            </form>
+    <link rel="stylesheet" href="css/style.css">
+	
+	 
+	  
+  </head>
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+ 
+<div class="site-wrap">
+  
+    <div class="top-bar py-3 bg-light" id="top-page-section">
+      <div class="container col-md-12">
+        <div class="row">
+          <div class="col-md-4 col-3 offset-md-0 col-sm-5">
+            <p class="mb-0">
+				<div class="logo"><a href="index.html"><img src="images/newdance_1.png" alt="New Dance" height="30px"></a></div>
+            </p>
+          </div>	
+          <div class="col-sm-0 col-md-8 col-xl-8 col-sm-7 col-7 offset-sm-0">
+            <ul class="social-media">
+              <li><a href="#" target="_blank" class="p-2"><span class="icon-shopping-bag"></span></a></li>
+			  <li><a href="#" target="_blank" class="p-2"><span class="icon-user"></span></a></li>
+			  <li><a href="#" target="_blank" class="p-2"><span class="icon-search"></span></a></li>
+			  </ul>
           </div>
         </div>
-      </nav>
-    </header>
-    <!-- end header section -->
-    <!-- slider section -->
+      </div> 
+    </div>
 
-    <section class="slider_section">
-      <div class="slider_container">
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <div class="container-fluid">
-                <div class="row">
-                  <div class="col-md-7">
-                    <div class="detail-box">
-                      <h1>
-                        Welcome To Our<br>
-                        Online Store
-                      </h1>
-                      <p>
-                        Where fashion meets quality. We are a lifestyle brand specializing in premium clothing and accessories that offer both style and comfort for every occasion.
-                      </p>
-                      <a href="">
-                        Contact Us
-                      </a>
-                    </div>
-                  </div>
-                  <div class="col-md-5 ">
-                    <div class="img-box">
-                      <img src="images/slider-img1.png" alt="" />
-                    </div>
-                  </div>
-                </div>
+    <div class="site-blocks-cover overlay" style="background-image: url(images/hero_1.jpg);" data-aos="fade" data-stellar-background-ratio="0.5">
+      <div class="container">
+        <div class="row align-items-center justify-content-center text-center">
+
+          <div class="col-md-12" data-aos="fade-up" data-aos-delay="400">
+                        
+            <div class="row justify-content-center mb-5">
+              <div class="col-md-8 text-center">
+				  <h1><strong><span>New Collection for </span></strong><strong><span class="typed-words-industries"></span></strong></h1>
+				  
+				<div><a data-fancybox data-content-theme="b" data-ratio="2" href="#contact-section" class="btn btn-primary btn-md text-light"><strong>Get Started</strong></a></div>
               </div>
             </div>
-            <div class="carousel-item ">
-              <div class="container-fluid">
-                <div class="row">
-                  <div class="col-md-7">
-                    <div class="detail-box">
-                      <h1>
-                        Welcome To Our <br>
-                        Online Store
-                      </h1>
-                      <p>
-                        Whether you're looking for men's wear, women's wear or kids wear, we provide a diverse collection designed to make you look and feel your best. 
-                      </p>
-                      <a href="">
-                        Contact Us
-                      </a>
-                    </div>
-                  </div>
-                  <div class="col-md-5 ">
-                    <div class="img-box">
-                      <img src="images/p6.png" alt="" />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item ">
-              <div class="container-fluid">
-                <div class="row">
-                  <div class="col-md-7">
-                    <div class="detail-box">
-                      <h1>
-                        Welcome To Our <br>
-                        Online Store
-                      </h1>
-                      <p>
-                        At New Dance, our mission is to bring you timeless fashion that elevates your wardrobe and empowers your style.
-                      </p>
-                      <a href="">
-                        Contact Us
-                      </a>
-                    </div>
-                  </div>
-                  <div class="col-md-5 ">
-                    <div class="img-box">
-                      <img src="images/p1.png" alt="" />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="carousel_btn-box">
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-              <i class="fa fa-arrow-left" aria-hidden="true"></i>
-              <span class="sr-only">Previous</span>
-            </a>
-            <img src="images/line.png" alt="" />
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-              <i class="fa fa-arrow-right" aria-hidden="true"></i>
-              <span class="sr-only">Next</span>
-            </a>
+
           </div>
         </div>
       </div>
+    </div>  
+	  
+		<section class="site-section">
+         <div class="row justify-content-center mb-2">
+	      <div class="row col-lg-12 justify-content-center">
+				<div class="row col-lg-12 justify-content-center">
+				  <h2 class="text-black h1 site-section-heading text-center " data-aos="fade-up">Welcome to Our New Dance Store</h2>
+				</div>
+          </div> 
+          </div>
+   </section>  
+	  
+    <section class="site-section" id="store-section">
+      <div class="container">		
+		<div class="row col-lg-12 justify-content-center">
+          <div class="box col-md-8 col-lg-4 border offset-xl-0 col-xl-3">
+            <div class="p-3 box-with-humber" data-aos="fade-up">
+              <img class="border_style rounded" src="images/men.jpg" width="200px" height="" alt="Men's Wear" />
+				<p></p>
+				<h2 class="text-light">Men</h2>
+				</div>
+          </div>
+
+       <div class="box col-md-8 col-lg-4 border offset-xl-1 col-xl-3" data-aos="fade-up">
+          <div class="p-3 box-with-humber" data-aos="fade-up">
+              <img class="border_style rounded" src="images/women.jpg" width="200px" height="" alt="Women's Wear" />
+				<p></p>
+				<h2 class="text-light">Women</h2>
+				</div>
+          </div>
+			
+		<div class="box col-md-8 col-lg-4 border offset-xl-1 col-xl-3" data-aos="fade-up">
+          <div class="p-3 box-with-humber" data-aos="fade-up">
+              <img class="border_style rounded" src="images/kids.jpg" width="200px" height="" alt="Kids' Wear" />
+				<p></p>
+				<h2 class="text-light">Kids</h2>
+            </div>
+          </div>
+          </div>
+        </div>
     </section>
+	    
+	<section class="site-section">
+         <div class="row justify-content-center mb-2">
+	      <div class="row col-lg-12 justify-content-center">
+				<div class="row col-lg-12 justify-content-center">
+				  <h2 class="text-black h1 site-section-heading text-center " data-aos="fade-up">Shop This</h2>
+				</div>
+          </div> 
+          </div>
+   </section>
+	    <div class="site-blocks-cover overlay" style="background-image: url(images/hero_2.jpg);" data-aos="fade" data-stellar-background-ratio="0.5">
+      <div class="container">
+        <div class="row align-items-center justify-content-center text-center">
 
-    <!-- end slider section -->
-  </div>
-  <!-- end hero area -->
+          <div class="col-md-12" data-aos="fade-up" data-aos-delay="400">
+                        
+            <div class="row justify-content-center mb-5">
+              <div class="col-md-8 text-center">		  
+				<div><a data-fancybox data-content-theme="b" data-ratio="2" href="pre-order.html" class="btn btn-primary btn-md text-light"><strong>See more</strong></a></div>
+              </div>
+            </div>
 
-  <!-- shop section -->
-
-  <section class="shop_section layout_padding">
-    <div class="container">
-      <div class="heading_container heading_center">
-        <h2>
-          Latest Products
-        </h2>
-      </div>
-      <div class="row">
-        <div class="col-sm-6 col-md-4 col-lg-3">
-          <div class="box">
-            <a href="">
-              <div class="img-box">
-                <img src="images/p1.png" alt="">
-              </div>
-              <div class="detail-box">
-                <h6>
-                T-Shirt SkB</h6>
-                <h6> 
-                  Price
-                  <span>
-                  R350
-                </span>
-                </h6>
-              </div>
-              <div class="new">
-                <span>
-                  New
-                </span>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-3">
-          <div class="box">
-            <a href="">
-              <div class="img-box">
-                <img src="images/p2.png" alt="">
-              </div>
-              <div class="detail-box">
-                <h6>
-                T-Shirt SkW01</h6>
-                <h6>
-                  Price
-                  <span>
-                  R350
-                </span>
-                </h6>
-              </div>
-              <div class="new">
-                <span>
-                  New
-                </span>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-3">
-          <div class="box">
-            <a href="">
-              <div class="img-box">
-                <img src="images/p3.png" alt="">
-              </div>
-              <div class="detail-box">
-                <h6>
-                Slim Fit&nbsp; </h6>
-                <h6>
-                  Price
-                  <span>
-                    R400
-                  </span>
-                </h6>
-              </div>
-              <div class="new">
-                <span>
-                  New
-                </span>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-3">
-          <div class="box">
-            <a href="">
-              <div class="img-box">
-                <img src="images/p4.png" alt="">
-              </div>
-              <div class="detail-box">
-                <h6>
-                  Hoodie -Mens
-                </h6>
-                <h6>
-                  Price
-                  <span>
-                    R600
-                  </span>
-                </h6>
-              </div>
-              <div class="new">
-                <span>
-                  New
-                </span>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-3">
-          <div class="box">
-            <a href="">
-              <div class="img-box">
-                <img src="images/p5.png" alt="">
-              </div>
-              <div class="detail-box">
-                <h6>
-                  Hoodie -Ladies
-                </h6>
-                <h6>
-                  Price
-                  <span>
-                    R550
-                  </span>
-                </h6>
-              </div>
-              <div class="new">
-                <span>
-                  New
-                </span>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-3">
-          <div class="box">
-            <a href="">
-              <div class="img-box">
-                <img src="images/p6.png" alt="">
-              </div>
-              <div class="detail-box">
-                <h6>
-                  T-Shirt SkW02
-                </h6>
-                <h6>
-                  Price
-                  <span>
-                    R350
-                  </span>
-                </h6>
-              </div>
-              <div class="new">
-                <span>
-                  New
-                </span>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-3">
-          <div class="box">
-            <a href="">
-              <div class="img-box">
-                <img src="images/p7.png" alt="">
-              </div>
-              <div class="detail-box">
-                <h6>
-                  T-Shirt Orange
-                </h6>
-                <h6>
-                  Price
-                  <span>
-                    R400
-                  </span>
-                </h6>
-              </div>
-              <div class="new">
-                <span>
-                  New
-                </span>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-3">
-          <div class="box">
-            <a href="">
-              <div class="img-box">
-                <img src="images/p8.png" alt="">
-              </div>
-              <div class="detail-box">
-                <h6>
-                  Hoodie HkW02
-                </h6>
-                <h6>
-                  Price
-                  <span>
-                    R600
-                  </span>
-                </h6>
-              </div>
-              <div class="new">
-                <span>
-                  New
-                </span>
-              </div>
-            </a>
           </div>
         </div>
       </div>
-      <div class="btn-box">
-        <a href="">
-          View All Products
-        </a>
-      </div>
-    </div>
-  </section>
+    </div>   
 
-  <!-- end shop section -->
-
-  <!-- saving section -->
-
-  <section class="saving_section ">
-    <div class="box">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-lg-6">
-            <div class="img-box">
-              <img src="images/saving-img.png" alt="">
+	<section class="site-section" id="shop-section">
+      <div class="container">		
+		<div class="row col-lg-12 justify-content-center">
+          <div class="box col-md-8 col-lg-4 border offset-xl-0 col-xl-3">
+            <div class="p-3 box-with-humber" data-aos="fade-up">
+              <img class="border_style rounded" src="images/p1.png" width="200px" height="" alt="Men's Wear" />
+				<p></p>
+				<h2 class="text-light">Men's Crew Neck</h2>
+				<p class="mb-2 text-center">R450 <div><a href="#" class="btn btn-primary text-light border-light"><strong>Order Now</strong></a></div></p>
             </div>
           </div>
-          <div class="col-lg-6">
-            <div class="detail-box">
-              <div class="heading_container">
-                <h2>
-                  Best Savings on <br>
-                  new arrivals
-                </h2>
-              </div>
-              <p>
-                Be the first to explore our fresh collection of T-shirts! From bold designs to classic favorites, enjoy exclusive savings on all new arrivals. Refresh your wardrobe with the latest trends at unbeatable prices – limited time only!obcaecati.
-              </p>
-              <div class="btn-box">
-                <a href="#" class="btn1">
-                  Buy Now
-                </a>
-                <a href="#" class="btn2">
-                  See More
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
 
-  <!-- end saving section -->
-
-  <!-- why section -->
-
-  <section class="why_section layout_padding">
-    <div class="container">
-      <div class="heading_container heading_center">
-        <h2>
-          Why Shop With Us
-        </h2>
-      </div>
-      <div class="row">
-        <div class="col-md-4">
-          <div class="box ">
-            <div class="img-box">
-              <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
-                <g>
-                  <g>
-                    <path d="M476.158,231.363l-13.259-53.035c3.625-0.77,6.345-3.986,6.345-7.839v-8.551c0-18.566-15.105-33.67-33.67-33.67h-60.392
-                 V110.63c0-9.136-7.432-16.568-16.568-16.568H50.772c-9.136,0-16.568,7.432-16.568,16.568V256c0,4.427,3.589,8.017,8.017,8.017
-                 c4.427,0,8.017-3.589,8.017-8.017V110.63c0-0.295,0.239-0.534,0.534-0.534h307.841c0.295,0,0.534,0.239,0.534,0.534v145.372
-                 c0,4.427,3.589,8.017,8.017,8.017c4.427,0,8.017-3.589,8.017-8.017v-9.088h94.569c0.008,0,0.014,0.002,0.021,0.002
-                 c0.008,0,0.015-0.001,0.022-0.001c11.637,0.008,21.518,7.646,24.912,18.171h-24.928c-4.427,0-8.017,3.589-8.017,8.017v17.102
-                 c0,13.851,11.268,25.119,25.119,25.119h9.086v35.273h-20.962c-6.886-19.883-25.787-34.205-47.982-34.205
-                 s-41.097,14.322-47.982,34.205h-3.86v-60.393c0-4.427-3.589-8.017-8.017-8.017c-4.427,0-8.017,3.589-8.017,8.017v60.391H192.817
-                 c-6.886-19.883-25.787-34.205-47.982-34.205s-41.097,14.322-47.982,34.205H50.772c-0.295,0-0.534-0.239-0.534-0.534v-17.637
-                 h34.739c4.427,0,8.017-3.589,8.017-8.017s-3.589-8.017-8.017-8.017H8.017c-4.427,0-8.017,3.589-8.017,8.017
-                 s3.589,8.017,8.017,8.017h26.188v17.637c0,9.136,7.432,16.568,16.568,16.568h43.304c-0.002,0.178-0.014,0.355-0.014,0.534
-                 c0,27.996,22.777,50.772,50.772,50.772s50.772-22.776,50.772-50.772c0-0.18-0.012-0.356-0.014-0.534h180.67
-                 c-0.002,0.178-0.014,0.355-0.014,0.534c0,27.996,22.777,50.772,50.772,50.772c27.995,0,50.772-22.776,50.772-50.772
-                 c0-0.18-0.012-0.356-0.014-0.534h26.203c4.427,0,8.017-3.589,8.017-8.017v-85.511C512,251.989,496.423,234.448,476.158,231.363z
-                  M375.182,144.301h60.392c9.725,0,17.637,7.912,17.637,17.637v0.534h-78.029V144.301z M375.182,230.881v-52.376h71.235
-                 l13.094,52.376H375.182z M144.835,401.904c-19.155,0-34.739-15.583-34.739-34.739s15.584-34.739,34.739-34.739
-                 c19.155,0,34.739,15.583,34.739,34.739S163.99,401.904,144.835,401.904z M427.023,401.904c-19.155,0-34.739-15.583-34.739-34.739
-                 s15.584-34.739,34.739-34.739c19.155,0,34.739,15.583,34.739,34.739S446.178,401.904,427.023,401.904z M495.967,299.29h-9.086
-                 c-5.01,0-9.086-4.076-9.086-9.086v-9.086h18.171V299.29z" />
-                  </g>
-                </g>
-                <g>
-                  <g>
-                    <path d="M144.835,350.597c-9.136,0-16.568,7.432-16.568,16.568c0,9.136,7.432,16.568,16.568,16.568
-                 c9.136,0,16.568-7.432,16.568-16.568C161.403,358.029,153.971,350.597,144.835,350.597z" />
-                  </g>
-                </g>
-                <g>
-                  <g>
-                    <path d="M427.023,350.597c-9.136,0-16.568,7.432-16.568,16.568c0,9.136,7.432,16.568,16.568,16.568
-                 c9.136,0,16.568-7.432,16.568-16.568C443.591,358.029,436.159,350.597,427.023,350.597z" />
-                  </g>
-                </g>
-                <g>
-                  <g>
-                    <path d="M332.96,316.393H213.244c-4.427,0-8.017,3.589-8.017,8.017s3.589,8.017,8.017,8.017H332.96
-                 c4.427,0,8.017-3.589,8.017-8.017S337.388,316.393,332.96,316.393z" />
-                  </g>
-                </g>
-                <g>
-                  <g>
-                    <path d="M127.733,282.188H25.119c-4.427,0-8.017,3.589-8.017,8.017s3.589,8.017,8.017,8.017h102.614
-                 c4.427,0,8.017-3.589,8.017-8.017S132.16,282.188,127.733,282.188z" />
-                  </g>
-                </g>
-                <g>
-                  <g>
-                    <path d="M278.771,173.37c-3.13-3.13-8.207-3.13-11.337,0.001l-71.292,71.291l-37.087-37.087c-3.131-3.131-8.207-3.131-11.337,0
-                 c-3.131,3.131-3.131,8.206,0,11.337l42.756,42.756c1.565,1.566,3.617,2.348,5.668,2.348s4.104-0.782,5.668-2.348l76.96-76.96
-                 C281.901,181.576,281.901,176.501,278.771,173.37z" />
-                  </g>
-                </g>
-                <g>
-                </g>
-                <g>
-                </g>
-                <g>
-                </g>
-                <g>
-                </g>
-                <g>
-                </g>
-                <g>
-                </g>
-                <g>
-                </g>
-                <g>
-                </g>
-                <g>
-                </g>
-                <g>
-                </g>
-                <g>
-                </g>
-                <g>
-                </g>
-                <g>
-                </g>
-                <g>
-                </g>
-                <g>
-                </g>
-              </svg>
-            </div>
-            <div class="detail-box">
-              <h5>
-                Fast Delivery
-              </h5>
-              <p>
-                We understand that time is of the essence. That's why we offer fast and reliable delivery to ensure your order reaches you as quickly as possible. Whether you're ordering a gift, essentials, or something special, our efficient shipping process means you can enjoy your purchase without the wait. Same-day processing and expedited shipping options make us your go-to choice for speed.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="box ">
-            <div class="img-box">
-              <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 490.667 490.667" style="enable-background:new 0 0 490.667 490.667;" xml:space="preserve">
-                <g>
-					
-                </g>
-                <g>
-                  <g>
-                    <path d="M245.333,0C110.059,0,0,110.059,0,245.333s110.059,245.333,245.333,245.333s245.333-110.059,245.333-245.333
-                 S380.608,0,245.333,0z M245.333,469.333c-123.52,0-224-100.48-224-224s100.48-224,224-224s224,100.48,224,224
-                 S368.853,469.333,245.333,469.333z" />
-                  </g>
-                </g>
-                <g>
-                  <g>
-                    <path d="M386.752,131.989C352.085,88.789,300.544,64,245.333,64s-106.752,24.789-141.419,67.989
-                 c-3.691,4.587-2.965,11.307,1.643,14.997c4.587,3.691,11.307,2.965,14.976-1.643c30.613-38.144,76.096-60.011,124.8-60.011
-                 s94.187,21.867,124.779,60.011c2.112,2.624,5.205,3.989,8.32,3.989c2.368,0,4.715-0.768,6.677-2.347
-                 C389.717,143.296,390.443,136.576,386.752,131.989z" />
-                  </g>
-                </g>
-                <g>
-                  <g>
-                    <path d="M376.405,354.923c-4.224-4.032-11.008-3.861-15.061,0.405c-30.613,32.235-71.808,50.005-116.011,50.005
-                 s-85.397-17.771-115.989-50.005c-4.032-4.309-10.816-4.437-15.061-0.405c-4.309,4.053-4.459,10.816-0.405,15.083
-                 c34.667,36.544,81.344,56.661,131.456,56.661s96.789-20.117,131.477-56.661C380.864,365.739,380.693,358.976,376.405,354.923z" />
-                  </g>
-                </g>
-                <g>
-                  <g>
-
-                  </g>
-                </g>
-                <g>
-                  <g>
-
-                  </g>
-                </g>
-                <g>
-                </g>
-                <g>
-                </g>
-                <g>
-                </g>
-                <g>
-                </g>
-                <g>
-                </g>
-                <g>
-                </g>
-                <g>
-                </g>
-                <g>
-                </g>
-                <g>
-                </g>
-                <g>
-                </g>
-                <g>
-                </g>
-                <g>
-                </g>
-                <g>
-                </g>
-                <g>
-                </g>
-                <g>
-                </g>
-                <g>
-                </g>
-              </svg>
-            </div>
-            <div class="detail-box">
-              <h5>
-              Affordable Shiping
-              </h5>
-              <p>
-                We offer affordable shipping rates designed to fit your budget. Whether you're shopping for a single item or placing a bulk order, we make sure our shipping fees are as reasonable as possible. With various shipping options to choose from, you can find the perfect balance between cost and delivery speed. Enjoy peace of mind knowing you’re getting the best value on both your products and delivery!
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="box ">
-            <div class="img-box">
-              <svg id="_30_Premium" height="512" viewBox="0 0 512 512" width="512" xmlns="http://www.w3.org/2000/svg" data-name="30_Premium">
-                <g id="filled">
-                  <path d="m252.92 300h3.08a124.245 124.245 0 1 0 -4.49-.09c.075.009.15.023.226.03.394.039.789.06 1.184.06zm-96.92-124a100 100 0 1 1 100 100 100.113 100.113 0 0 1 -100-100z" />
-                  <path d="m447.445 387.635-80.4-80.4a171.682 171.682 0 0 0 60.955-131.235c0-94.841-77.159-172-172-172s-172 77.159-172 172c0 73.747 46.657 136.794 112 161.2v158.8c-.3 9.289 11.094 15.384 18.656 9.984l41.344-27.562 41.344 27.562c7.574 5.4 18.949-.7 18.656-9.984v-70.109l46.6 46.594c6.395 6.789 18.712 3.025 20.253-6.132l9.74-48.724 48.725-9.742c9.163-1.531 12.904-13.893 6.127-20.252zm-339.445-211.635c0-81.607 66.393-148 148-148s148 66.393 148 148-66.393 148-148 148-148-66.393-148-148zm154.656 278.016a12 12 0 0 0 -13.312 0l-29.344 19.562v-129.378a172.338 172.338 0 0 0 72 0v129.38zm117.381-58.353a12 12 0 0 0 -9.415 9.415l-6.913 34.58-47.709-47.709v-54.749a171.469 171.469 0 0 0 31.467-15.6l67.151 67.152z" />
-                  <path d="m287.62 236.985c8.349 4.694 19.251-3.212 17.367-12.618l-5.841-35.145 25.384-25c7.049-6.5 2.89-19.3-6.634-20.415l-35.23-5.306-15.933-31.867c-4.009-8.713-17.457-8.711-21.466 0l-15.933 31.866-35.23 5.306c-9.526 1.119-13.681 13.911-6.634 20.415l25.384 25-5.841 35.145c-1.879 9.406 9 17.31 17.367 12.618l31.62-16.414zm-53-32.359 2.928-17.615a12 12 0 0 0 -3.417-10.516l-12.721-12.531 17.658-2.66a12 12 0 0 0 8.947-6.5l7.985-15.971 7.985 15.972a12 12 0 0 0 8.947 6.5l17.658 2.66-12.723 12.535a12 12 0 0 0 -3.417 10.516l2.928 17.615-15.849-8.231a12 12 0 0 0 -11.058 0z" />
-                </g>
-              </svg>
-            </div>
-            <div class="detail-box">
-              <h5>
-                Best Quality
-              </h5>
-              <p>
-                Quality is at the heart of everything we do. We meticulously select the best materials and work with trusted suppliers to deliver only the highest standards of craftsmanship. Each product undergoes strict quality control checks to guarantee durability,  and satisfaction. When you choose us, you're choosing excellence that lasts.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- end why section -->
-
-
-  <!-- gift section -->
-
-  <section class="gift_section layout_padding-bottom">
-    <div class="box ">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-md-5">
-            <div class="img_container">
-              <div class="img-box">
-                <img src="images/gifts.png" alt="">
-              </div>
-            </div>
-          </div>
-          <div class="col-md-7">
-            <div class="detail-box">
-              <div class="heading_container">
-                <h2>
-                  Shop for Yourself and <br>
-                  Your Loved Ones
-                </h2>
-              </div>
-              <p>
-                Why settle for just one when you can shop for both yourself and the people who matter most? Whether you're treating yourself to something special or surprising a loved one with the perfect gift, we've got you covered. Explore our wide range of high-quality products that cater to every taste and need. From thoughtful gifts to personal indulgences, our collection makes it easy to shop for everyone in your life. After all, everyone deserves a little something special!
-              </p>
-              <div class="btn-box">
-                <a href="#" class="btn1">
-                  Buy Now
-                </a>
-                <a href="#" class="btn2">
-                  See More
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-  <!-- end gift section -->
-
-
-  <!-- contact section -->
-
-  <section class="contact_section layout_padding">
-    <div class="container px-0">
-      <div class="heading_container heading_center">
-        <h2 class="">
-          Contact Us
-        </h2>
-      </div>
-    </div>
-    <div class="container container-bg">
-      <div class="row">
-        <div class="col-lg-7 col-md-6 px-0">
-          <div class="map_container">
-            <div class="map-responsive">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d114584.75890543916!2d27.957624559383756!3d-26.17149804567838!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e950c68f0406a51%3A0x238ac9d9b1d34041!2sJohannesburg!5e0!3m2!1sen!2sza!4v1731865837714!5m2!1sen!2sza"  width="600" height="300" frameborder="0" style="border:0; width: 100%; height:100%" allowfullscreen></iframe>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-5 px-0">
-          <form action="#">
-            <div>
-              <input type="text" placeholder="Name" />
-            </div>
-            <div>
-              <input type="email" placeholder="Email" />
-            </div>
-            <div>
-              <input type="text" placeholder="Phone" />
-            </div>
-            <div>
-              <input type="text" class="message-box" placeholder="Message" />
-            </div>
-            <div class="d-flex ">
-              <button>
-                SEND
-              </button>
-            </div>
-          </form>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- end contact section -->
-
-  <!-- client section -->
-  <section class="client_section layout_padding">
-    <div class="container">
-      <div class="heading_container heading_center">
-        <h2>
-          Testimonial
-        </h2>
-      </div>
-    </div>
-    <div class="container px-0">
-      <div id="customCarousel2" class="carousel  carousel-fade" data-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div class="box">
-              <div class="client_info">
-                <div class="client_name">
-                  <h5>
-                    Lerato
-                  </h5>
-                  <h6>
-                    
-                  </h6>
-                </div>
-                <i class="fa fa-quote-left" aria-hidden="true"></i>
-              </div>
-              <p>
-                Great quality for the price. The designs are unique, and I get so many compliments whenever I wear one!
-              </p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="box">
-              <div class="client_info">
-                <div class="client_name">
-                  <h5>
-                    Sarah K
-                  </h5>
-                  <h6>
-                    
-                  </h6>
-                </div>
-                <i class="fa fa-quote-left" aria-hidden="true"></i>
-              </div>
-              <p>
-                I love my new T-shirt! The fit is perfect, and the fabric is so soft. I’ll definitely be ordering more!
-              </p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="box">
-              <div class="client_info">
-                <div class="client_name">
-                  <h5>
-                    Brad
-                  </h5>
-                  <h6>
-                   
-                  </h6>
-                </div>
-                <i class="fa fa-quote-left" aria-hidden="true"></i>
-              </div>
-              <p>
-                Super fast shipping and the T-shirt looks exactly like the picture. Very happy with my purchase!
-              </p>
+       <div class="box col-md-8 col-lg-4 border offset-xl-1 col-xl-3" data-aos="fade-up">
+            <div class="p-3 box-with-humber" data-aos="fade-up">
+              <img class="border_style rounded" src="images/p2.png" width="200px" height="" alt="Women's Wear" />
+				<p></p>
+				<h2 class="text-light">Women's Crew Neck</h2>
+				<p class="mb-2 text-center">R450 <div><a href="#" class="btn btn-primary text-light border-light"><strong>Order Now</strong></a></div></p>
             </div>
           </div>
 			
-			<div class="carousel-item">
-            <div class="box">
-              <div class="client_info">
-                <div class="client_name">
-                  <h5>
-                    Kathlego
-                  </h5>
-                  <h6>
-                   
-                  </h6>
-                </div>
-                <i class="fa fa-quote-left" aria-hidden="true"></i>
-              </div>
-              <p>
-                I’ve ordered a few T-shirts from this new dance, and they’re my new favorites. Soft, stylish, and durable. Highly recommend!.
-              </p>
+		<div class="box col-md-8 col-lg-4 border offset-xl-1 col-xl-3" data-aos="fade-up">
+            <div class="p-3 box-with-humber" data-aos="fade-up">
+              <img class="border_style rounded" src="images/p3.png" width="200px" height="" alt="Kids' Wear" />
+				<p></p>
+				<h2 class="text-light">Kid's Crew Neck&nbsp;</h2>
+				<p class="mb-2 text-center">R430 <div><a href="#" class="btn btn-primary text-light border-light"><strong>Order Now</strong></a></div></p>
             </div>
           </div>
+          </div>
         </div>
-        <div class="carousel_btn-box">
-          <a class="carousel-control-prev" href="#customCarousel2" role="button" data-slide="prev">
-            <i class="fa fa-angle-left" aria-hidden="true"></i>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#customCarousel2" role="button" data-slide="next">
-            <i class="fa fa-angle-right" aria-hidden="true"></i>
-            <span class="sr-only">Next</span>
-          </a>
+    </section>
+	     
+    <section class="site-section bg-light" id="contact-section">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-md-12 mb-5">
+         <form action="email.php" method="post" class="p-5" onReset="Clear" onSubmit="Clear" enctype="multipart/form-data">
+              
+              <h2 class="h4 text-black mb-5">Signup for New Dance Updates</h2>
+			 <p><span>By entering your e-mail below, you consent to receiving our newsletter with access to our latest collections, events and initives. More details on this are provided in our <a href="#" title="Privacy Policy">Provacy Policy.</a></span></p>
+
+
+              <div class="row form-group">
+                <div class="col-md-12">
+                  <label class="text-black" for="email">Email</label> 
+                  <input type="email" name="email" id="email" class="form-control" required>
+                </div>
+              </div>
+
+               <div class="row form-group">
+                <div class="col-md-12">
+                  <input type="submit" value="Signup" class="btn btn-primary btn-md text-white" id="submit" name="submit">
+                </div>
+              </div>
+
+  
+            </form>
+          </div>
+         
         </div>
       </div>
-    </div>
-  </section>
-  <!-- end client section -->
-
-  <!-- info section -->
-
-  <section class="info_section  layout_padding2-top">
-    <div class="social_container">
-      <div class="social_box">
-		<a href="https://api.whatsapp.com/send/?phone=27744587870&text=Hi+I+have+a+query%2C+please+help">
-          <i class="fa fa-whatsapp" aria-hidden="true"></i>
-        </a>
-        <a href="">
-          <i class="fa fa-facebook" aria-hidden="true"></i>
-        </a>
-        <a href="">
-          <i class="fa fa-twitter" aria-hidden="true"></i>
-        </a>
-        <a href="">
-          <i class="fa fa-instagram" aria-hidden="true"></i>
-        </a>
-        <a href="">
-          <i class="fa fa-youtube" aria-hidden="true"></i>
-        </a>
-      </div>
-    </div>
-    <div class="info_container ">
+    </section>
+	  
+	
+  
+    <footer class="site-footer bg-dark">
       <div class="container">
         <div class="row">
-          <div class="col-md-6 col-lg-3">
-            <h6>
-              ABOUT US
-            </h6>
-            <p>
-            Founded in 2022, New Dance Clothing began with a simple mission: to offer high-quality, stylish clothing that combines comfort, versatility, and durability -&nbsp;<a href="about.html"> more... </a></p>
-          </div>
-          <div class="col-md-6 col-lg-3">
-            <div class="info_form ">
-              <h5>
-                Newsletter
-              </h5>
-              <form action="#">
-                <input type="email" placeholder="Enter your email">
-                <button>
-                  Subscribe
-                </button>
-              </form>
+          <div class="col-md-11">
+            <div class="row">
+	  
+              <div class="col-md-12 text-center">
+			<p class="mb-0">
+				<div class="logo2"><a href="index.html"><img src="images/newdance_2.png" alt="New Dance" height="20px"></a></div>
+            </p>
+				<p></p>
+              </div>
+			  
+			    <div class="about col-md-12 text-center mb-3">                  
+                <h5><a href="about.html" target="_blank">About Us</a></h5>
+				<h5><a href="shipping.html" target="_blank">Affordable Shipping</a></h5>
+                <h5><a href="delivery.html" target="_blank">Fast Delivery Service</a></h5>
+				<h5><a href="sizing.html" target="_blank">Size Guide</a></h5>
+					<p></p>
+				</div>
+			  
+              <div class="col-md-12 text-center">                  
+                <h2 class="footer-heading mb-4 text-center">Follow Us: &nbsp;&nbsp;
+                <a href="https://www.facebook.com/newdance" target="_blank" class="pl-0 pr-3"><span class="icon-facebook" title="Facebook" alt="Facebook"></span></a>
+				<a href="https://www.instagram.com/newdance" target="_blank" class="pl-3 pr-3"><span class="icon-instagram" title="Instagram" alt="Instagram"></span></a>
+                <a href="https://twitter.com/newdance" target="_blank" class="pl-3 pr-3"><span class="icon-twitter" title="Twitter" alt="Twitter"></span></a>
+				<a href="https://www.linkedin.com/company/newdance" target="_blank" class="pl-3 pr-3"><span class="icon-music_note" title="TikTok" alt="TikTok"></span></a></h2>
+				</div>
+			  
+			  <div class="col-md-12 text-center">
+			<p class="mb-0">
+				<div class="logo2"><a href=""><img src="images/payments.png" alt="Payments" title="Payments" height="20px"></a></div>
+            </p>
+				<p></p>
+			  
+              </div>
             </div>
           </div>
-          <div class="col-md-6 col-lg-3">
-            <h6>
-            WHY CHOoSE US? </h6>
+          
+        </div>
+        <div class="row pt-5 mt-5 text-center">
+          <div class="col-md-12">
+            <div class="border-top pt-0">
             <p>
-            We believe in Quality, Sustainability, Customer Satisfaction and providing an excellent shopping experience, with fast shipping, and personal customer support. - <a href="why.html"> more...</a> </p>
-          </div>
-          <div class="col-md-6 col-lg-3">
-            <h6>
-              CONTACT US
-            </h6>
-            <div class="info_link-box">
-              <a href="">
-                <i class="fa fa-map-marker" aria-hidden="true"></i>
-                <span>Johannesburg, Gauteng</span>
-              </a>
-              <a href="tel:+27710993942">
-                <i class="fa fa-phone" aria-hidden="true"></i>
-                <span>+27744587870</span>
-              </a>
-              <a href="mailto:sales@newdance.co.za">
-                <i class="fa fa-envelope" aria-hidden="true"></i>
-                <span>sales@newdance.co.za</span>
-              </a>
+              <!-- Footer -->
+				Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | <i aria-hidden="true"></i> 
+				<a onClick="toggle(this)" class="nav-item text-light">New Dance</a>
+				<foot id="Web-Designer" style="white;padding:5px;"></foot>
+				
+            <!-- Footer-->
+            </p>
             </div>
           </div>
+          
         </div>
       </div>
-    </div>
-    <!-- footer section -->
-    <footer class=" footer_section">
-      <div class="container">
-        <p>
-          &copy; <span id="displayYear"></span> All Rights Reserved |
-          <a href="https://www.manxmedia.co.za/">Manx Media</a>
-        </p>
-      </div>
     </footer>
-    <!-- footer section -->
+  </div> <!-- .site-wrap -->
 
-  </section>
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/jquery-ui.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/jquery.countdown.min.js"></script>
+  <script src="js/bootstrap-datepicker.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/jquery.sticky.js"></script>
 
-  <!-- end info section -->
+  <script src="js/typed.js"></script>
+            <script>
+            var typed = new Typed('.typed-words', {
+            strings: ["Welcome Home", "Welcome Home","Welcome Home"],
+            typeSpeed: 140,
+            backSpeed: 140,
+            backDelay: 4000,
+            startDelay: 1000,
+            loop: true,
+            showCursor: true
+            });
+            </script>
 
+	  <script>
+            var typed = new Typed('.typed-words-industries', {
+            strings: ["Men", "Women", "Kids", "Men","Women", "Kids","Men" ,"Women", "Kids"],
+            typeSpeed: 80,
+            backSpeed: 80,
+            backDelay: 6000,
+            startDelay: 2000,
+            loop: true,
+            showCursor: false
+            });
+            </script>
+	  
+	  <script>
+        let toggle = a => {
+    	let element = document.getElementById("Web-Designer");
+    	let hidden = element.getAttribute("hidden");
 
-  <script src="js/jquery-3.4.1.min.js"></script>
-  <script src="js/bootstrap.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
-  </script>
-  <script src="js/custom.js"></script>
-
-</body>
-
+    	if (hidden) {
+       	element.removeAttribute("hidden");
+        a.innerText = "New Dance";
+    	} else {
+       	element.setAttribute("hidden", "hidden");
+		a.innerText = "Manx Media";
+		}
+  		}
+	  	</script>
+	  
+  <script src="js/main.js"></script>
+	
+	
+  </body>
 </html>
